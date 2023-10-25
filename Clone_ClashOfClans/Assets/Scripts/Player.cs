@@ -40,7 +40,7 @@
         public static readonly string username_key = "username";
         public static readonly string password_key = "password";
 
-        private int _unreadBattleReports = 0; public int unreadBattleReports { get { return _gold; } }
+        private int _unreadBattleReports = 0; public int unreadBattleReports { get { return _unreadBattleReports; } }
         private int _gold = 0; public int gold { get { return _gold; } set { _gold = value; } }
         private int _maxGold = 0; public int maxGold { get { return _maxGold; } }
 
